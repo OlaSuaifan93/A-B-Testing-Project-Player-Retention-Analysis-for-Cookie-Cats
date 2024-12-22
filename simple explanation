@@ -1,0 +1,60 @@
+Sure! Here's a simple and detailed explanation of the Cookie Cats project:
+
+---
+
+### What is Cookie Cats?  
+Cookie Cats is a popular mobile puzzle game where players progress through levels by solving puzzles. In the game, there's a concept called a "gate." A gate is a checkpoint that players need to pass to continue to the next set of levels. To open the gate, players might need to wait a certain time or pay with in-game currency.
+
+---
+
+### What was the Problem?  
+The developers wanted to know if changing the position of the first gate in the game (from **level 30 to level 40**) would impact how long players stay in the game (player retention) and how many game rounds they play.  
+
+To figure this out, they decided to conduct an **A/B test**.  
+- **Control Group**: These players experienced the original version of the game, with the gate at level 30.  
+- **Test Group**: These players experienced a new version of the game, with the gate moved to level 40.  
+
+The goal was to analyze if players in the test group stayed longer or played more compared to the control group.
+
+---
+
+### What Did I Do?  
+1. **Data Collection**:  
+   The dataset included 90,189 players, with information like:
+   - When they started playing.
+   - How many game rounds they completed.
+   - Whether they returned to the game after one day (1-day retention).
+   - Whether they returned after seven days (7-day retention).
+
+2. **Data Cleaning and Preparation**:  
+   - Checked for missing values or errors in the data.  
+   - Made sure the control and test groups were balanced in size and characteristics.
+
+3. **Hypothesis Testing**:  
+   - The hypothesis was: *Moving the gate to level 40 will improve player retention and increase the number of rounds played.*  
+   - Used statistical tests to compare the control and test groups:
+     - **Shapiro Test**: Checked if the data was normally distributed.  
+     - **Levene Test**: Checked if the two groups had similar variances.  
+     - **T-Test/Welch Test/Mann-Whitney U Test**: Compared metrics like retention rates and rounds played.
+
+4. **Data Visualization**:  
+   - Created charts and graphs to visualize differences between the control and test groups for:
+     - 1-day and 7-day retention rates.  
+     - Average rounds played.
+
+5. **Analysis and Insights**:  
+   - Found out if moving the gate to level 40 improved or worsened retention and gameplay.  
+   - Based on the results, I provided recommendations on whether the new gate placement should be implemented permanently.
+
+---
+
+### What Were the Results?  
+- The test showed whether moving the gate had a **positive, negative, or neutral impact** on player behavior.  
+- The findings helped the developers make a data-driven decision about the game design.
+
+---
+
+### Why Was This Important?  
+This project helped the game developers understand player behavior and decide if a simple change like gate placement could improve player engagement. This kind of analysis can influence in-game monetization strategies and overall user experience.
+
+Would you like me to dive into any specific aspect of this project?
